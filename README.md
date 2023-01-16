@@ -1,4 +1,2 @@
 # startup
-* This is my first edit using VS code
-* This is the edit to the file from github
-* This is my second edit using VS code
+* I use Git frequently at my job, but haven't done much with merge conflicts. This was a good exercise to resolve a simple merge conflict and get an idea of what it means.
