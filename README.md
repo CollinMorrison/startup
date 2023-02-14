@@ -12,4 +12,6 @@ Simon notes:
 CSS notes:
 * Selectors: "body {}, h1 {}. .class{}"
 * Animations: "animation-name, animation-duration, @keyframe <animation-name> {}"
+* Flex Box: "body { display: flex; flex-direction: row; }", "flex: 1;", "flex: 0 80px;"
+* Grid: "display: grid;", "grid-template columns: repeat(auto-fill, minmax(300px, 1fr));", "grid-auto-rows: 300px;", "grid-gap: 1em;"
 
