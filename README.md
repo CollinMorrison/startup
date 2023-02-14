@@ -9,3 +9,7 @@ Simon notes:
 * If the deployment script isn't working, check permissions on the file
 * deployment command: ./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon
 
+CSS notes:
+* Selectors: "body {}, h1 {}. .class{}"
+* Animations: "animation-name, animation-duration, @keyframe <animation-name> {}"
+
