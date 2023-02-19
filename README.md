@@ -15,3 +15,7 @@ CSS notes:
 * Flex Box: "body { display: flex; flex-direction: row; }", "flex: 1;", "flex: 0 80px;"
 * Grid: "display: grid;", "grid-template columns: repeat(auto-fill, minmax(300px, 1fr));", "grid-auto-rows: 300px;", "grid-gap: 1em;"
 
+BootStrap:
+* CSS framework
+* Tutorial with basic explanations: https://www.w3schools.com/bootstrap5/index.php
+
