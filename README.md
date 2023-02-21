@@ -7,7 +7,7 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
 Simon notes:
 
 * If the deployment script isn't working, check permissions on the file
-* deployment command: ./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon
+* deployment command: "./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon"
 
 CSS notes:
 * Selectors: "body {}, h1 {}. .class{}"
@@ -18,4 +18,6 @@ CSS notes:
 BootStrap:
 * CSS framework
 * Tutorial with basic explanations: https://www.w3schools.com/bootstrap5/index.php
+* When you include bootstrap in your project, you can use bootstrap classes and custom classes as needed together.
+* You can override a bootstrap class by using !important
 
