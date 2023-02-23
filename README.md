@@ -20,4 +20,8 @@ BootStrap:
 * Tutorial with basic explanations: https://www.w3schools.com/bootstrap5/index.php
 * When you include bootstrap in your project, you can use bootstrap classes and custom classes as needed together.
 * You can override a bootstrap class by using !important
+* m-5 sets a margin of level 5
+* bg-dark
+* text-center
+* h-100 sets a height of 100%
 
