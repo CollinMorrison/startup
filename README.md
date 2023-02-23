@@ -36,7 +36,7 @@ console.log(containsLetter('b', 'a', 'b', 'c', 'd'))
 
 //Spread
 function myFavoriteColors(colorOne, colorTwo) {
-  return `My favorite color is ${colorOne}, but I hate ${colorTwo}`
+  return \`My favorite color is ${colorOne}, but I hate ${colorTwo}\`
 }
 
 console.log(myFavoriteColors(...['blue', 'red']))`
