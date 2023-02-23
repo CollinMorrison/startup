@@ -1,13 +1,17 @@
-body {
+.body {
     display: flex;
     flex-direction: column;
     min-width: 375px;
   }
 
-main {
+.main {
     flex: 1 calc(100vh - 110px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
+
+.padding-top {
+    padding-top: 10px;
+}
