@@ -4,18 +4,18 @@
 URL:  http://3.129.176.78/ OR getreced.click
 SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
 
-Simon notes:
+**Simon notes:**
 
 * If the deployment script isn't working, check permissions on the file
 * deployment command: "./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon"
 
-CSS notes:
+**CSS notes:**
 * Selectors: "body {}, h1 {}. .class{}"
 * Animations: "animation-name, animation-duration, @keyframe <animation-name> {}"
 * Flex Box: "body { display: flex; flex-direction: row; }", "flex: 1;", "flex: 0 80px;"
 * Grid: "display: grid;", "grid-template columns: repeat(auto-fill, minmax(300px, 1fr));", "grid-auto-rows: 300px;", "grid-gap: 1em;"
 
-BootStrap:
+**BootStrap:**
 * CSS framework
 * Tutorial with basic explanations: https://www.w3schools.com/bootstrap5/index.php
 * When you include bootstrap in your project, you can use bootstrap classes and custom classes as needed together.
@@ -24,4 +24,20 @@ BootStrap:
 * bg-dark
 * text-center
 * h-100 sets a height of 100%
+
+**JavaScript**
+* Rest and Spread:
+`//Rest
+function containsLetter (baseCase, ...letters) {
+  return letters.some((i) => i === baseCase)
+}
+
+console.log(containsLetter('b', 'a', 'b', 'c', 'd'))
+
+//Spread
+function myFavoriteColors(colorOne, colorTwo) {
+  return `My favorite color is ${colorOne}, but I hate ${colorTwo}`
+}
+
+console.log(myFavoriteColors(...['blue', 'red']))`
 
