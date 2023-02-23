@@ -26,18 +26,7 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
 * h-100 sets a height of 100%
 
 **JavaScript**
-* Rest and Spread: `
-//Rest
-function containsLetter (baseCase, ...letters) {
-  return letters.some((i) => i === baseCase)
-}
-
-console.log(containsLetter('b', 'a', 'b', 'c', 'd'))
-
-//Spread
-function myFavoriteColors(colorOne, colorTwo) {
-  return `My favorite color is ${colorOne}, but I hate ${colorTwo}`
-}
-
-console.log(myFavoriteColors(...['blue', 'red']))`
+* Rest and Spread: someFunction(baseCase, ...theRestOfTheParameters)
+  * someFunction(parameterOne, parameterTwo)
+  * a = sumFunction(...array)
 
