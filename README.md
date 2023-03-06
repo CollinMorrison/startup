@@ -31,4 +31,6 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
   * a = sumFunction(...array)
 * Error Handling:
  * You can add a "finally" block after the catch block that houses code that always runs
+* To include js in an HTML file, use the <script> tag
+* To select an element by it's class, use `document.querySelector('')`
 
