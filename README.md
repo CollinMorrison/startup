@@ -9,6 +9,10 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
 * If the deployment script isn't working, check permissions on the file
 * deployment command: "./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon"
 
+**HTML Notes**
+* <div>: creates a division
+* <b>: bring attention
+
 **CSS notes:**
 * Selectors: "body {}, h1 {}. .class{}"
 * Animations: "animation-name, animation-duration, @keyframe <animation-name> {}"
