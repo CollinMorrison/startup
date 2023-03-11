@@ -28,9 +28,14 @@ class Person {
                 const cardEl = document.createElement('div');
                 cardEl.appendChild(classEl);
                 cardEl.appendChild(timeEl);
-
-                console.log(cardEl);
-                console.log(reservationsEl);
+                cardEl.classList.add('border', 
+                'rounded',
+                'm-3', 
+                'bg-secondary',
+                'shadow',
+                'text-light')
+                //console.log(cardEl);
+                //console.log(reservationsEl);
 
                 reservationsEl.appendChild(cardEl);
 
