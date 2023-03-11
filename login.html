@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>AllRec</title>
         <link rel="icon" href="favicon.ico" />
-    
+        <script src="login.js"></script>
         <link rel="stylesheet" href="main.css" />
     
         <!-- Include bootstrap CSS framework -->
@@ -21,11 +21,9 @@
         <main class="container-fluid bg-secondary text-center main">
             <div>
                 <h1>Login</h1>
-                <form method="get" action="index.html">
-                    <input type="text" id="username" placeholder="Username"/>
-                    <input type="password" id="password" placeholder="Password"/>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </form>
+                <input type="text" id="username" placeholder="Username"/>
+                <input type="password" id="password" placeholder="Password"/>
+                <button class="btn btn-primary" onclick="login()">Login</button>
             </div>
         </main>
     </body>
