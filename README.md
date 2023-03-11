@@ -37,4 +37,6 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
  * You can add a "finally" block after the catch block that houses code that always runs
 * To include js in an HTML file, use the <script> tag
 * To select an element by it's class, use `document.querySelector('')`
+* You can use a for-loop syntax like `for (const [i, reservation] of reservations.entries()) {}` to use a hybrid iteration loop where you still have access to the index.
+* Add classes to elements created by javascript with `element.classList.add('')`
 
