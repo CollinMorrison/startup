@@ -1,14 +1,14 @@
 export const reservations = [
     {
-        class: 'cycling',
+        class: 'Cycling',
         time: '3:00'
     },
     {
-        class: 'yoga',
+        class: 'Yoga',
         time: '3:30'
     },
     {
-        class: 'basketball',
+        class: 'Basketball',
         time: '5:00'
     }
 ]
