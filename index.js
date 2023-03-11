@@ -1,12 +1,13 @@
-import reservations from 'reservations.js';
+import { reservations } from './reservations.js';
 
 class Person {
-    myReservations;
+    myReservations = [];
 
     constructor() {
         const usernameEl = document.querySelector('.username');
+        console.log(reservations);
         usernameEl.textContent = this.getUserName();
-        myReservations = reservations;
+        this.myReservations = reservations;
     }
 
     getUserName() {
@@ -14,5 +15,4 @@ class Person {
     }
 
 }
-
 const person = new Person();
