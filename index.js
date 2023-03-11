@@ -1,9 +1,12 @@
+import reservations from 'reservations.js';
+
 class Person {
-    reservations;
+    myReservations;
 
     constructor() {
         const usernameEl = document.querySelector('.username');
         usernameEl.textContent = this.getUserName();
+        myReservations = reservations;
     }
 
     getUserName() {
