@@ -39,4 +39,14 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
 * To select an element by it's class, use `document.querySelector('')`
 * You can use a for-loop syntax like `for (const [i, reservation] of reservations.entries()) {}` to use a hybrid iteration loop where you still have access to the index.
 * Add classes to elements created by javascript with `element.classList.add('')`
+ 
+ **Express**
+ * Express simplifies and streamlines http route handling
+ * To include express: `const express = require('express');
+ * Declare app: `const app = express();`
+ * Declare router: `const apiRouter = express.Router();`
+ * http methods: `apiRouter.get(), apiRouter.post, etc.`
+ * To listen on a port: `app.listen(port, () -> {
+  console.log(`Listening on port ${port}`);
+ });`
 
