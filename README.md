@@ -50,3 +50,7 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
   console.log(`Listening on port ${port}`);
  });`
 
+**MongoDB**
+* use `npm install mongodb`
+* to use environment variables: `const userName = process.env.MONGOUSER; const password = proccess.env.MONGOPASSWORD; const hostname = process.env.MONGOHOSTNAME;`
+* mongo url: `mongodb+srv://${userName}:${password}@${hostname}`
