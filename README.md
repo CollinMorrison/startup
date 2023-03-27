@@ -54,3 +54,12 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
 * use `npm install mongodb`
 * to use environment variables: `const userName = process.env.MONGOUSER; const password = proccess.env.MONGOPASSWORD; const hostname = process.env.MONGOHOSTNAME;`
 * mongo url: `mongodb+srv://${userName}:${password}@${hostname}`
+ 
+ **Login Notes**
+ * To authenticate a user, get the username that they input with something like `const userName = localStorage.getItem('username')`
+ * Check if the username exists, then get the boolean of whether or not the user was authenticated with something like `if (userName) {
+    const nameEl = document.querySelector('#userName');
+    nameEl.value = userName;
+    const user = await getUser(nameEl.value);
+    authenticated = user?.authenticated;
+  }`
