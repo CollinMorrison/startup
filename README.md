@@ -71,3 +71,5 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
  'Content-type': 'application/json; charset=UTF-8',
  },
  });`
+ * To use fetch, use `const reponse = await fetch(...)`
+ * To get the body of the response in json, use `const body = await response.json();`
