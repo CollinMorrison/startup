@@ -63,3 +63,11 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
     const user = await getUser(nameEl.value);
     authenticated = user?.authenticated;
   }`
+ * fetch takes up to two parameters - 
+ ** The endpoint being called ie. `'/api/auth/create'`
+ ** The information to pass in the request ie. `method: post,
+ body: JSON.stringify({ email: userName, password: password }),
+ headers: {
+ 'Content-type': 'application/json; charset=UTF-8',
+ },
+ });`
