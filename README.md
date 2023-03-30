@@ -73,3 +73,9 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
  });`
  * To use fetch, use `const reponse = await fetch(...)`
  * To get the body of the response in json, use `const body = await response.json();`
+ 
+ **Websockets**
+ * like an https request-response model, but requests and responses can be sent at any time. Like a chat.
+ * To set up a websocket, first define the protocol it will be using - `const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';`
+ * Create the websocket: `this.socket = new WebSocket('${protocol}://${window.location.host}/ws');`
+ 
