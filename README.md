@@ -79,3 +79,8 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
  * To set up a websocket, first define the protocol it will be using - `const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';`
  * Create the websocket: `this.socket = new WebSocket('${protocol}://${window.location.host}/ws');`
  
+ **Reactivity**
+ * React components have `props`, a `state`, and a `render` function
+ * React monitors the props and state for any changes, and when changes take place, react re-runs the render function to make sure the page is current and reflecting the changes
+ * You can assign a variable a state to pass into JSX like this: `const [color, updateColor] = React.useState('#737AB0');`
+ 
