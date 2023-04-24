@@ -49,6 +49,8 @@ SSH command: ssh -i ~/AWS/CollinMorrison/pem ubuntu@3.129.176.78
  * To listen on a port: `app.listen(port, () -> {
   console.log(`Listening on port ${port}`);
  });`
+ * Each api call using app.get(), app.put(), etc. takes two parameters - the URL path and the function to execute after completing the request
+ * app.get('.store/provo', (req, res, next) => { res.send({ name: 'provo' }) });
 
 **MongoDB**
 * use `npm install mongodb`
